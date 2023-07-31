@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>navigation bar</title>
+    <style>
+.navbar{
+  background-color:black;
+  border:3px solid pink;
+  border-radius:30px;
+}
+.navbar li{
+  float:left;
+  list-style:none;
+    margin:13px 13px;
+    background-color:pink;
+    border:2px solid red;
+    border-radius:3px;
+
+}
+.navbar ul{
+  overflow:auto;
+}
+.navbar li a{
+  padding:3px 4px;
+  text-decoration:none;
+  color:black;
+
+}
+.search{
+  color:white;
+  float:right;
+  margin-right:30px;
+  margin-top:10px;
+}
+.navbar input{
+  border:2px solid yellow;
+  border-radius:9px;
+  padding:3px 2px;
+}
+.navbar li a:hover{
+  color:blue;
+
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <div class="search">
+          <input type="text" name="search" placeholder="search the website">
+          </div>
+          </ul>
+</nav>
+
+    </header>
+
+
+
+  </body>
+</html>

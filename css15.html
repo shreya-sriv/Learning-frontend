@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>css variables</title>
+    <style media="screen">
+      :root{
+        --bcolor:pink;
+      }
+      .box{
+        --rcolor:green;
+        height:200px;
+        width:200px;
+        background-color:var(--rcolor);
+        border:2px solid black;
+      }
+      .container{
+        display:flex;
+        background-color:var(--bcolor);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+  </div>
+  </body>
+</html>

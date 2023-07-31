@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+  </head>
+  <style >
+   .box{
+      text-align:center;
+      background-color:red;
+      font-size:30px;
+      display:none;
+      color: white;
+    }
+    @media screen and  (max-width:200px){
+      #first{
+         display:block;
+         background-color: black;
+      }
+    }
+@media screen and (min-width:200px)and (max-width:500px){
+  #second{
+    display:block;
+  }
+}
+
+
+  </style>
+  <body>
+
+  <div class="box" id="first" >main i phone hoon</div>
+    <div class="box" id="second" >main tablet hoon</div>
+  <div class="box" id="third" >main computer hoon</div>
+      <div class="box" id="fourth" >main laptop hoon</div>
+
+  </body>
+</html>
